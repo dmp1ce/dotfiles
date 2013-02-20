@@ -1,0 +1,8 @@
+! Make Caps Lock the escape key
+clear Lock
+keycode 0x42 = Escape
+
+! Make the Right Shift the new Caps Lock key
+clear shift
+add shift = Shift_L
+add lock = Shift_R
